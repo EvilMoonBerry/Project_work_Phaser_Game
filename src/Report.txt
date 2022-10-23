@@ -1,0 +1,56 @@
+CT30A2910 Introduction to Web Programming 
+
+Project work: Phaser Game
+Made By: Petra Sjögren
+Scoring suggestion:
+
+Feature	Points
+There is a clear plot in the game. It has a start and end.	4
+There are different (more than 1) objects to collect	2
+Gamer needs to use both keyboard and mouse to meaningfully control the player character	4
+There are enemies that can hurt the player	3
+There is music and sound effects when player shoots/jumps or anything like that	3
+Multiple Scenes	2
+Different kinds of enemies with different movements and timed to appear with score 	1
+Ending and game over scenes with music	1
+Visible HP changing and score counter	1
+When tested worked with Firefox and Chrome. 	1
+Written report. 1
+
+What was done
+I choose Phaser game as my final project because I thought it was interesting.
+I thought even thought I had no experience about phaser before this course I could come up with something. The Phaser assignment didn’t feel so restrictive as the other ones.
+First, I thought I would do side scrolling game, but after one day I gave up.
+If I had have more time i could have been able to build a game like that.
+Because of that I decided to stay in the range of week 7 assignment and do a dropdown game where enemies are falling.  
+
+The game I made is a spaceship shooter game, that uses mouse to move the spaceship and space to shoot.
+The player needs to collect points or defeat the boss to win.
+There are three different kinds of enemies in the game. 
+Each enemy type is worth a different number of points and moves differently.
+Player needs to shoot the enemies to get points. If enemy hits the player the player loses health points and when those reach to zero the game ends.
+One of the enemies is a boss that takes more hits to defeat. In addition to that if the boss hits the player the game ends. 
+All enemies spawn randomly to the screen to add variation.In addition to enemies there are two different types of gems, that are worth different number of points.
+The gems and monsters are designed to spawn after certain number of points are gathered.
+In addition to that there are sound effects for collecting gems and shooting to liven up the game.
+I would have liked to have background music but all the other sound effects drowned under that.
+Also, the game over scene and ending scene has sound.
+What was used
+Tools:
+I used CodeSandbox as my platform. I have used it throughout the whole course, so I decided to stick with what I was familiar with.
+I used Draw.io to draw enemies, coins, the spaceship, health bar and all the scene screens. I am familiar with this program, and it was easy to draw .png pictures without background with it. 
+For the sound effects I searched free sounds from the internet. All the sound clips are downloaded from https://mixkit.co/free-sound-effects/.
+References:
+Sound:
+How to play sound effects
+https://www.youtube.com/watch?v=SRqKOccMWbc 
+bounce of boss 
+Followed bomb movement for my boss monster
+https://phaser.io/tutorials/making-your-first-phaser-3-game/part10 
+scene change
+How to change scene
+https://www.youtube.com/watch?v=-BSz_FeWfkY
+How to shoot a bullet
+How to make a bullet and shoot the bullet from the same location as the spaceship. How to make an object follow mouse. 
+https://github.com/photonstorm/phaser3-examples/blob/master/public/src/physics/arcade/bullets%20group.js
+
